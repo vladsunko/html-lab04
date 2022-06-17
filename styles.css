@@ -1,0 +1,137 @@
+.zagolovok {
+	text-align: center;
+	border: 3px solid black;
+
+}
+.explain {
+	display: flex;
+	flex-basis: 35%;
+	justify-content: space-around;
+}
+
+.calculate {
+	margin-left: 1%;
+	margin-right: 245px;
+	margin-top: 30px;
+	grid-auto-columns: 100px;
+	grid-auto-rows: 100px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	display: grid;
+	width: 470px;
+	height: auto;
+	color: #FFFFFF;
+	font-size: xx-large;
+
+
+}
+.boxes {
+	background: #616066;
+	border:1px solid #2f2e38;
+	text-align:	center;
+
+}
+.boxes_top {
+	background:#5f5e65; 
+}
+#box1{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background: #53525a;
+	border-radius: 10px 10px 0 0;
+	font-size: 2.5em;
+	padding-left: 80%;
+	padding-top: 5%;
+	
+}
+#box2, #box3, #box4 {
+	background: #4e4c55;
+}
+#box5, #box9, #box13, #box17, #box20 {
+	background: #ff9f08;
+}
+#box18 {
+		grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	border-radius: 0 0 0 20px;
+}
+#box20 {
+	border-radius: 0 0 20px 0;
+}
+
+.calculate2 {
+	display: flex;
+	margin-top: 30px;
+	flex-direction: column;
+	height: auto;
+	width: 470px;
+	color: 	#FFFFFF;
+	font-size: xx-large;
+	justify-content: center;
+
+
+}
+.item_flex {
+	height: 98px;
+	flex-basis: 25%;
+	background: #656066;
+	font-size: 40px;
+	border:1px solid #2f2e38;
+}
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+
+}
+.row1 {
+	height: 200px;
+	
+
+}
+#box_flex1{
+	height: 200px;
+	background: #53525a;
+	font-size: 2.5em;
+	padding-left: 85%;
+	padding-top: 22%;
+	border-radius: 10px 10px 0 0;
+}
+.row2, .row3, .row4, .row5, .row6 {
+	display: flex;
+	justify-content: center;
+}
+
+#box_flex2, #box_flex3, #box_flex4{
+	background: #4e4c55;
+}
+#box_flex5, #box_flex9, #box_flex13, #box_flex17, #box_flex20 {
+	background: #ff9f08;
+	border:1px solid #2f2e38;
+}
+#box_flex18 {
+	flex-grow: 2;
+	border-radius: 0 0 0 20px;
+	border:1px solid #2f2e38;
+}
+#box_flex19{
+	border:1px solid #2f2e38;
+}
+#box_flex20 {
+	border-radius: 0 0 20px 0;
+}
+	
+.item_flex2{
+
+	height: 98px;
+	flex-basis: 24.6%;
+	background: #616066;
+	text-align:	center;
+}
+p{
+	text-align: center;
+}
